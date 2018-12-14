@@ -1,11 +1,48 @@
 /* ------- General ------- */
-
+body {
+	font-family: 'Open Sans', sans-serif;
+}
 
 /* ------- Customize Elements ------- */
-
+.navbar-text {
+	display: flex;
+}
+.navbar {
+	padding: 80px 0 40px 0;
+}
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-collapse {
+	align-items: center;
+    justify-content: center;
+}
+}
 
 /* ------- Header ------- */
+header {
+	text-transform: uppercase;
+}
+header a {
+	color: black;
+}
 
+header a:hover {
+	text-decoration: none;
+}
+
+.top-header {
+	font-size: 0.75em;
+	padding: 10px;
+}
+
+.left-top a {
+	margin-right: 20px;
+}
+.right-top {
+	text-align: right;
+}
+.right-top a {
+	margin-right: 30px;
+}
 /* ------- Contents ------- */
 
 /* ------- Sidebar ------- */
