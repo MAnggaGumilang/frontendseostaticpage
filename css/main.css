@@ -43,12 +43,7 @@ header a:hover {
 .right-top a {
 	margin-right: 30px;
 }
-/* ------- Contents ------- */
-
-/* ------- Sidebar ------- */
-
-/* ------- Footer ------- */
-
+/* ------- Banner -------- */
 .card-carousel {
   display: flex;
   align-items: center;
@@ -220,3 +215,10 @@ header a:hover {
   pointer-events: auto;
   transition: 1s;
 }
+/* ------- Contents ------- */
+.content {
+	margin-top: 100px;
+}
+/* ------- Sidebar ------- */
+
+/* ------- Footer ------- */
